@@ -40,7 +40,7 @@ That's where you define the instructions for directory, file and insertions of c
 ```json
 {
   "baseDir": "A fully qualified directory path to which all files are relative to",
-  "encoding": "The default encoding is UTF-8. Refer to [.Net enconding names](https://docs.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-5.0#list-of-encodings) if you need to change that. ",
+  "encoding": "The default encoding is UTF-8. If you need to change that refer to naming convention in the link bellow**",
   "profiles": [
     {
       "name": "profile-name",
@@ -61,6 +61,8 @@ That's where you define the instructions for directory, file and insertions of c
   ]
 }
 ```
+
+** [Encoding names convention](https://docs.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-5.0#list-of-encodings)
 
 A typical command has the following structure
 

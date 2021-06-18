@@ -23,8 +23,8 @@ You could just run something like
 
 1. Download the latest [release](https://github.com/diegosiao/fiat/releases/tag/v0.0.1-beta) or compile from the code in repository. **Put it in your PATH**;
 2. Define the stubs files in some folder in your project;
-3. Run `fiat init` to create the template file *fiat.config.json* in the root of your project;
-4. Define properly the *fiat.config.json* template file created. Refer to the simple documentation below;
+3. Run `fiat init` to create the template file [fiat.config.json](https://github.com/diegosiao/fiat/blob/master/fiat.config.json) in the root of your project;
+4. Define properly the [fiat.config.json](https://github.com/diegosiao/fiat/blob/master/fiat.config.json) template file created. Refer to the simple documentation below;
 5. Run your first `fiat profile-name` command to create the files you defined;
 6. Get amazed 😲
 
@@ -32,7 +32,7 @@ You could just run something like
 
 Stubs are files with the boilerplate content to create new files. Refer to the [/stubs](https://github.com/diegosiao/fiat/tree/master/stubs) folder in this repository for some reference and examples. You can use variables in these files to be replaced during the scaffolding creation.
 
-**IMPORTANT: Variables should be put between '$'. E.g.: $variablename$. Take a look at the stubs in example. **
+**IMPORTANT: Variables should be put between '$'. E.g.: $variablename$. Take a look at the [stubs](https://github.com/diegosiao/fiat/tree/master/stubs) as examples.**
 
 ### [fiat.config.json](https://github.com/diegosiao/fiat/blob/master/fiat.config.json)
 
@@ -66,4 +66,4 @@ A typical command has the following structure
 
 `fiat [profile-name] [var1value] [var2value]`
 
-That is it. I hope it helps. Enjoy it!
+### That is it. I hope it helps. Enjoy it!

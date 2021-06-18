@@ -1,5 +1,5 @@
 # <h1 align="center">fiat ⚡</h1>
-#### Fiat is latin term that means bringing things into existance. That's pretty much what this guy does... with files.
+#### <p align="center">Fiat is latin term that means bringing things into existance. That's pretty much what this guy does... with files.</p>
 
 ## What is this?
 

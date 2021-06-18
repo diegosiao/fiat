@@ -1,0 +1,20 @@
+﻿using Microsoft.Azure.Cosmos;
+using MyProject.Model.$entity$.Commands;
+using MyProject.Persistence;
+using System;
+using System.Threading.Tasks;
+
+namespace MyProject.Persistence.Repository.CosmosDb
+{
+    //fiat:new-comment
+
+    public class $entity$CommandRepository : 
+        CommandRepositoryBase<$entity$Model>, I$entity$CommandRepository
+    {
+		public $entity$CommandRepository(CosmosClient cosmosClient) : base(cosmosClient)
+        {
+        }
+	
+        //fiat:new-method
+    }
+}

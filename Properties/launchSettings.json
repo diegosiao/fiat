@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "fiat": {
+      "commandName": "Project",
+      "commandLineArgs": "new-query Order ById"
+    }
+  }
+}

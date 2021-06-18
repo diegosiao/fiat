@@ -1,0 +1,3 @@
+﻿
+        public Task<RepositoryResult> $action$($entity$$action$CommandDto dto, MoviUser user);
+

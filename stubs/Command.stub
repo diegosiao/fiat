@@ -1,0 +1,23 @@
+﻿using Microsoft.AspNetCore.Http;
+using MyProject.Model.$entity$.Commands;
+using MyProject.Main;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace MyProject.Main.$entity$.Commands
+{
+    public class $entity$$action$Command : HttpRequestOperation<$entity$$action$CommandDto>
+    {
+        private readonly I$entity$CommandRepository _repository;
+
+        public $entity$$action$Command(I$entity$CommandRepository repository)
+        {
+            _repository = repository;
+        }
+
+        public override async Task<HttpResponseMessage> ProcessAsync(HttpRequest request)
+        {
+           return await HttpRequestResult.Succeded(new {  });
+        }
+    }
+}

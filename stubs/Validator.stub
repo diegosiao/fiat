@@ -1,0 +1,13 @@
+﻿using FluentValidation;
+using Movi.Serverless.Model.$entity$.Commands;
+
+namespace MyProject.Model.$entity$.Validators
+{
+    public class $entity$$action$Validator : AbstractValidator<$entity$$action$CommandDto>
+    {
+		public $entity$$action$Validator()
+        {
+            
+        }
+    }
+}

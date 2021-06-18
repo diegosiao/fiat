@@ -1,0 +1,11 @@
+﻿using MyProject.Model;
+using MyProject.Model.$entity$.Commands;
+using System.Threading.Tasks;
+
+namespace MyProject.Persistence
+{
+    public interface I$entity$CommandRepository : ICommandRepositoryBase<$entity$Model>
+    {
+        //fiat:new-method
+    }
+}

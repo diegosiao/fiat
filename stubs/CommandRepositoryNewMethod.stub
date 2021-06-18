@@ -1,0 +1,5 @@
+﻿
+        public async Task<RepositoryResult> $action$($entity$$action$CommandDto dto, User user)
+        {
+            throw new NotImplementedException();
+        }

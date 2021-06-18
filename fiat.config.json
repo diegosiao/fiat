@@ -1,0 +1,43 @@
+﻿{
+  "baseDir": "C:/my-project",
+  "profiles": [
+    {
+      "name": "new-command",
+      "vars": [ "entity", "action" ],
+      "stubsDir": "stubs/commands",
+      "scaffolds": [
+        {
+          "name": "validator",
+          "file": "my-project-model/$entity$/Commands/Validators/$entity$$action$Validator.cs",
+          "stub": "Validator.stub"
+        },
+        {
+          "name": "dto",
+          "file": "my-project-model/$entity$/Commands/Dtos/$entity$$action$CommandDto.cs",
+          "stub": "Dto.stub"
+        },
+        {
+          "name": "command",
+          "file": "my-project-main/$entity$/Commands/$entity$$action$Command.cs",
+          "stub": "Command.stub"
+        },
+        {
+          "name": "repository-interface",
+          "file": "my-project-persistence/$entity$/I$entity$CommandRepository.cs",
+          "stub": "CommandRepositoryInterface.stub",
+          "put": {
+            "new-method": "CommandRepositoryInterfaceNewMethod.stub"
+          }
+        },
+        {
+          "name": "repository",
+          "file": "my-project-persistence-cosmosdb/$entity$/$entity$CommandRepository.cs",
+          "stub": "CommandRepository.stub",
+          "put": {
+            "new-method": "CommandRepositoryNewMethod.stub"
+          }
+        }
+      ]
+    }
+  ]
+}

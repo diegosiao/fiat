@@ -1,4 +1,4 @@
-﻿namespace fiat
+﻿namespace Fiat
 {
     public static class CoreExtensions
     {

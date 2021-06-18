@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace fiat
+namespace Fiat
 {
     internal class Program
     {

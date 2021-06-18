@@ -7,8 +7,6 @@ Shortly, is a tool for scaffolding directories and files based on stubs for clas
 
 If you have to create several boilerplate files for any new implementation, **fiat is a tool for you.**
 
-Is there any odertools doing that a
-
 ## Why?
 
 Today's architectures have a common approach of "many objects doing few things" which is better than "few objects doing many things". That's great, but any new implmentation comes with a lot of boilerplate code. 
